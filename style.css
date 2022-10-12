@@ -1,0 +1,44 @@
+h1 {
+	text-align: left;
+}
+
+*{
+font-family: 'Noto Serif Georgian', serif;
+}
+
+body {
+    margin: 150px;
+}
+
+.container.photo {
+    max-width: 50px;
+    padding: 0px;
+    }
+
+.icon {
+    display: flex;
+    width: 8%;
+    flex-direction: row;
+}
+
+.flex > div 
+{
+  flex-basis: 18%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 5px;
+  flex-basis:25%;
+  text-align:flex-end;
+}
+
+.flex {
+      display: flex;
+      flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
