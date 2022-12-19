@@ -1,4 +1,4 @@
-/*
+*
 This is a good layout for a mobile-first CSS template.
 Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
 Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
@@ -20,7 +20,10 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     font-size: 14px;
+    max-width: 500px;
 }
+
+background 
 
 img {
 display: block;
@@ -47,6 +50,7 @@ font-family: 'Lora', serif;
 
 body {
     margin: 50px;
+    background-color: beige;
 }
 
 .container.photo > img {
@@ -62,11 +66,16 @@ body {
 }
 
 
-/* Adjust chart settings */
+/* Adjust map settings */
 
-.charts {
+.map {
 max-width: 300px;
-padding: 0px
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+align-content: center;
+border: black;
 }
 
 
@@ -78,23 +87,28 @@ padding: 0px
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
 .container.photo > img {
-    max-width: 700px;
-    padding: 0px;
+    max-width: 650px;
+    padding-left: 30px;
     align-content: center;
     }
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    max-width: 900px;
 }
 
     body {
     margin: 80px;
+        background-color: beige;
 }
 
-.charts {
+.map {
 max-width: 600px;
-padding: 0px;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
 align-content: center;
 }
 
@@ -111,6 +125,4 @@ align-content: center;
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
-
-
 
